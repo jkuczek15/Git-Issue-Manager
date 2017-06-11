@@ -4,10 +4,12 @@
 <head>
   <meta charset="utf-8">
 
-  <title>About</title>
+  <title>Task</title>
 </head>
 
 <body>
-  <h1>About Us</h1>
+
+  <h1>{{ $task->body }}</h1>
+
 </body>
 </html>
